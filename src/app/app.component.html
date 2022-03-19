@@ -1,0 +1,24 @@
+<div style="text-align: center;"><h2>CONVERSOR DE EXCEL A JSON</h2>
+  <p class="lead">Tecnológico de Estudios Superiores de Ecatepec</p>
+  </div>
+  
+  <!-- Público  -->
+  <form id="file-upload-form" class="uploader">
+    <input id="file-upload" type="file" name="fileUpload" accept=".xls, .xlsx" />
+  
+    <label for="file-upload" id="file-drag">
+      <img id="file-image" src="#" alt="Preview" class="hidden">
+      <div id="start">
+        <i class="fa fa-download" aria-hidden="true"></i>
+        <div><b>Selecciona el archivo</b></div>
+        <div id="notimage" class="hidden">Por favor selecciona un archivo de EXCEL</div>
+        <span id="file-upload-btn" class="btn btn-primary">Buscar</span>
+      </div>
+      <div id="response" class="hidden">
+        <div id="messages"></div>
+        <progress class="progress" id="file-progress" value="0">
+          <span>0</span>%
+        </progress>
+      </div>
+    </label>
+  </form>
